@@ -1,0 +1,11 @@
+# Illustrative values only; this starter does not implement this configuration.
+# Define and validate the real schema when the component is introduced.
+instance:
+  name: openmettle-demo
+network:
+  public_url: https://ai.example.invalid
+  exposure: private
+storage:
+  data_directory: /srv/openmettle/data
+# Obtain credentials through the component's documented secret mechanism.
+# Do not add real credentials to this example.

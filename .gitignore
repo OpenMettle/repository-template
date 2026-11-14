@@ -1,0 +1,31 @@
+# Local secrets and installation values
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+id_rsa
+id_ed25519
+kubeconfig
+config/*.local.yaml
+config/*.local.yml
+secrets/
+# Runtime state
+state/
+data/
+models/
+*.tfstate
+*.tfstate.*
+.terraform/
+# Development output
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+.DS_Store
+.idea/
+.vscode/
